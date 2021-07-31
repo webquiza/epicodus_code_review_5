@@ -16,4 +16,9 @@ export default class Age {
     return this.earth;
   }
 
+  mars() {
+    this.earth = parseInt((this.earth / 1.88).toFixed());
+    return this.earth;
+  }
+
 }
