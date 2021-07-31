@@ -1,4 +1,9 @@
 body {
-  background-color: lightblue;
+  background-color: #669bbc;
+}
+
+.center {
+  text-align: center;
+  padding: 20px;
 }
 
