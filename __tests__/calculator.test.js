@@ -19,7 +19,7 @@ describe('Age', () => {
   });
 
   test('should return age in Venus years', () => {
-    expect(age.venus()).toEqual(62);
+    expect(age.venus()).toEqual(61);
   });
 
 });
