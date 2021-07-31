@@ -13,4 +13,9 @@ describe('Age', () => {
     expect(age.earth).toEqual(38);
     expect(age.expectancy).toEqual(85);
   });
+
+  test ('should return age in Mercury years', () => {
+    expect(age.mercury).toEqual(158.3);
+  });
+
 });
