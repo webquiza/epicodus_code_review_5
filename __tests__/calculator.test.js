@@ -42,4 +42,8 @@ describe('Age', () => {
     expect(age.venusRemainder()).toEqual(37);
   });
 
+  test('should return number of Venus years past expectancy if it has been surpassed', () => {
+    expect(age.venusRemainder()).toEqual(37);
+  });
+
 });
