@@ -46,4 +46,8 @@ describe('Age', () => {
     expect(age.venusRemainder()).toEqual(37);
   });
 
+  test('should return remaining years expectancy on Mars ', () => {
+    expect(age.marsRemainder()).toEqual(12);
+  });
+
 });
