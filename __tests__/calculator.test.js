@@ -38,4 +38,8 @@ describe('Age', () => {
     expect(age.mercuryRemainder()).toEqual(95);
   });
 
+  test('should return remaining years expectancy on Venus ', () => {
+    expect(age.venusRemainder()).toEqual(37);
+  });
+
 });
