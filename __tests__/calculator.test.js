@@ -30,4 +30,8 @@ describe('Age', () => {
     expect(age.jupiter()).toEqual(3);
   });
 
+  test('should return remaining years expectancy on Mercury ', () => {
+    expect(age.mercuryRemainder()).toEqual(195);
+  });
+
 });
