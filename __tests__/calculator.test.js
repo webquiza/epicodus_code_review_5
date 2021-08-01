@@ -55,7 +55,11 @@ describe('Age', () => {
   });
 
   test('should return remaining years expectancy on Jupiter ', () => {
-    expect(age.jupiterRemainder()).toEqual(2);
+    expect(age.jupiterRemainder()).toEqual(1);
+  });
+
+  test('should return number of Jupiter years past expectancy if it has been surpassed', () => {
+    expect(age.jupiterRemainder()).toEqual(1);
   });
 
 });
