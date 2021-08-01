@@ -28,8 +28,8 @@ export default class Age {
 
   mercuryRemainder () { 
     if (this.expectancy >= this.earth) {
-      return parseInt((this.expectancy - this.earth) / 0.24);
-    }
+      return parseInt((this.expectancy - this.earth) / .24);
+    } 
   }
 
 }

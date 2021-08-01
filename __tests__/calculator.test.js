@@ -34,4 +34,8 @@ describe('Age', () => {
     expect(age.mercuryRemainder()).toEqual(195);
   });
 
+  test('should return number of Mercury years past expectancy if it has been surpassed', () => {
+    expect(age.mercuryRemainder()).toEqual(95);
+  });
+
 });
