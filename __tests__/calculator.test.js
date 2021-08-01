@@ -50,4 +50,8 @@ describe('Age', () => {
     expect(age.marsRemainder()).toEqual(12);
   });
 
+  test('should return number of Mars years past expectancy if it has been surpassed', () => {
+    expect(age.marsRemainder()).toEqual(12);
+  });
+
 });

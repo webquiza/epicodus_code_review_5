@@ -40,6 +40,14 @@ export default class Age {
     } else {
       return parseInt((this.earth - this.expectancy) / .62);
     }
+  }
+  
+  marsRemainder () { 
+    if (this.expectancy >= this.earth) {
+      return parseInt((this.expectancy - this.earth) / 1.88);
+    } else {
+      return parseInt((this.earth - this.expectancy) / 1.88);
+    }
   }  
 
 }
