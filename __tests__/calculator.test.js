@@ -6,12 +6,12 @@ describe('Age', () => {
   let age;
  
   beforeEach( () => {
-    age = new Age(38, 85);
+    age = new Age(38, 15);
   });
 
   test('should instantiate a new Age constructor with corresponding properties', () => {
     expect(age.earth).toEqual(38);
-    expect(age.expectancy).toEqual(85);
+    expect(age.expectancy).toEqual(15);
   });
 
   test('should return age in Mercury years', () => {
@@ -31,7 +31,7 @@ describe('Age', () => {
   });
 
   test('should return remaining years expectancy on Mercury ', () => {
-    expect(age.mercuryRemainder()).toEqual(195);
+    expect(age.mercuryRemainder()).toEqual(95);
   });
 
   test('should return number of Mercury years past expectancy if it has been surpassed', () => {
